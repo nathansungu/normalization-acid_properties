@@ -151,8 +151,7 @@ Consistency property ensures that the value should be consistent and always corr
 <br><br>Example<br>
 Tony and John have $100 and $200 in their bank accounts respectively. The total of their amount is $300. So, even after the thousands of transactions between them, the total amount should remain $300. If any problem occurs, like system failure, the total amount must not change. Otherwise, we can say the database is not consistent.
 
-1. <b>Isolation </b>
-<br>
+1. <b>Isolation </b><br>
 Ensures that no two transactions of the same database interfere with each other. If two transactions are running concurrently on the same database, the second transaction must not read the values from the database until the first transaction is completed.<br><br>Example<br>With three bank accounts of Tom, John, and Ross with the amount $100, $200, and $500.<br>
 Now, Ross needs to send $100 to Tom and $200 to John. Here, we have two independent transactions that must not interfere with each other.<br>
 When the first transaction is completed (After sending $100 to Tom), Ross will have $400 in his account, and then he will send $200 to John and end up with $200.
