@@ -11,8 +11,7 @@ Prisma is a modern, open-source ORM (Object-Relational Mapping) tool that makes 
 1. Prisma allows for the use of many databases like Postgres, Mysql, or MongoDb. Prisma sets up your tables the same way regardless of the database you use. 
 1. Lets initialize a new Prisma project and use Postgresql as our provider:<br><br>
 `npx prisma init --datasource-provider sqlite` <br><br>
-1. This will create a new prisma folder and a .env file for us. Inside of that folder, we will have a schema.prisma file. This is where we will define our data model. If you open the .env file, we should see the following:
-
+1. This will create a new prisma folder and a .env file for us. Inside of that folder, we will have a schema.prisma file. This is where we will define our data model. 
 ## Special annotations:
 
 1. `@id`: Marks a field as the primary key.
