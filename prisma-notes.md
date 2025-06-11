@@ -68,7 +68,7 @@ To run queries open a js file and import  PrismaClient  from '@prisma/client';
     import { PrismaClient } from '@prisma/client';
     const client =PrismaCLient
 ```
-Now you can run any code in the file using the models we eclared with prisma.
+Now you can run any code in the file using the models we declared with prisma.
 
 **Create** <br>
 Used to insert a new record into database.
