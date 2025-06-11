@@ -3,7 +3,7 @@
 ## DNS RESOLUTION:<br>
 The first step is your web browser sends a request to a DNS (Domain Name System) server to resolve the URL (Uniform Resource Locator) into an IP address. The DNS server looks up the IP address associated with the URL and returns it to the browser.<br>
 - Why Use DNS<br>
-Its easier to remember a word like jumia.com reather than a long number such as 172.217.3.111.<br>
+Its easier to remember a word like jumia.com rather than a long number such as 172.217.3.111.<br>
 - How DNS Works<br>
 Your computer starts by asking your local DNS server. If it doesn’t know, it asks other servers until it finds the answer. This process happens incredibly fast.<br>
     
