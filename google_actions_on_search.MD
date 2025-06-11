@@ -27,20 +27,20 @@ Once the IP address is obtained, the browser initiates a TCP/IP  connection with
 - Esdtablishing TCP/IP Connection
 <br>
 
-    1. `Initiation:` Your computer sends a message to the server, saying, “Hey, I want to talk!” This is called a SYN (synchronize) request.
+ 1. `Initiation:` Your computer sends a message to the server, saying, “Hey, I want to talk!” This is called a SYN (synchronize) request.
 
-    1. `Acknowledgment:` The server replies, “Sure, let’s talk.” It acknowledges your request with a SYN-ACK message.
+1. `Acknowledgment:` The server replies, “Sure, let’s talk.” It acknowledges your request with a SYN-ACK message.
 
-    1. `Connection Established:` Finally, your computer sends an ACK message back to the server. Now the connection is established, and data can flow back and forth smoothly.
+ 1. `Connection Established:` Finally, your computer sends an ACK message back to the server. Now the connection is established, and data can flow back and forth smoothly.
 
-    Once connection is established your computer and server can share information between each other in a way that ensures it reach its destination intact..
+Once connection is established your computer and server can share information between each other to its destination intact.
 
 ## Firewall:<br>
 Before any data can be transferred between the client and the server, the firewall checks the request to ensure that it is not malicious. A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.<br>
 - How Does Firewall Work
     1. Packet Filtering: It looks at individual packets and make decisions based on the predefined rules.
     1. Stateful Inspection:  It knows if a request from inside the network matches an expected response from outside. If it doesn’t, the firewall blocks it.
-    1. Deep Packet Inspectio (DPI):  PI examines the actual content of data packets, looking for signs of malware or other threats.
+    1. Deep Packet Inspection (DPI):  PI examines the actual content of data packets, looking for signs of malware or other threats.
     
 
 
